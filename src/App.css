@@ -1,0 +1,36 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+  }
+  
+  .card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .btn-primary {
+    background-color: #4b7bec;
+    border-color: #4b7bec;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3867d6;
+    border-color: #3867d6;
+  }
+  .card {
+    transition: transform 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.02);
+  }
