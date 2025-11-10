@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const FirebaseContext = createContext(null);
 
 const firebaseConfig = {
-  apiKey: AIzaSyBaW28sy6-fgim6uQ2KatPL62iVtTcDLXo,
+  apiKey: "AIzaSyBaW28sy6-fgim6uQ2KatPL62iVtTcDLXo",
   authDomain: "bookify-f34f0.firebaseapp.com",
   projectId: "bookify-f34f0",
   storageBucket: "bookify-f34f0.firebasestorage.app",
@@ -142,6 +142,7 @@ export const FirebaseProvider = (props) => {
     </FirebaseContext.Provider>
   );
 };
+
 
 
 
